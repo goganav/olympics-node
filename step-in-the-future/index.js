@@ -14,12 +14,10 @@ export function getAverageNumber(numbers) {
 
 export function generateRandomNumbers(a, c, m, x0, n) {
     let numbers = []
-
-    let x = 0
     let xprev = x0
 
     for (let i = 0; i < n; i++) {
-        x = (a * xprev + c) % m
+        let x = (a * xprev + c) % m
         numbers.push(x)
         xprev = x
     }
