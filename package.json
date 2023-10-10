@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "vitest"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/goganav/olympics-node/issues"
   },
-  "homepage": "https://github.com/goganav/olympics-node#readme"
+  "homepage": "https://github.com/goganav/olympics-node#readme",
+  "devDependencies": {
+    "vitest": "^0.34.6"
+  }
 }
