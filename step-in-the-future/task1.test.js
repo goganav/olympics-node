@@ -1,5 +1,5 @@
 import { expect, test, describe } from 'vitest'
-import { getAverageNumber, generateRandomNumbers } from './index'
+import { getAverageNumber, generateRandomNumbers } from './task1'
 
 describe('getAverageNumber tests', () => {
     test('test getAverageNumber 1', () => {
